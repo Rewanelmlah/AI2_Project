@@ -13,6 +13,14 @@ Among these, **XGBoost** delivered the best performance in terms of accuracy and
 ---
 
 ## Dataset Description  
+
+### Files  
+- **train.csv** - The training dataset; `Exited` is the binary target variable.  
+- **test.csv** - The test dataset; your objective is to predict the probability of `Exited`.  
+- **sample_submission.csv** - A sample submission file in the correct format.  
+
+You can access the dataset and files [here](https://www.kaggle.com/competitions/playground-series-s4e1/data).  
+
 The dataset includes customer attributes such as:  
 - Demographics  
 - Account information  
@@ -52,20 +60,8 @@ The target variable indicates whether a customer has churned (left the company) 
 - **Scikit-learn**: Model building and evaluation.  
 - **XGBoost**: Best-performing machine learning model.  
 
----
 
-## How to Run the Project  
 
-1. **Install Prerequisites**  
-   Ensure Python and the required libraries are installed.  
-
-  
-2. **Clone the Repository**
-   Clone this project to your local system.
-      git clone <repository-url>
-      cd <repository-folder>
-3. **Open in Jupyter Notebook**
-      Open the notebook file in a Jupyter environment.
 
 4. **Run the Notebook**
 
