@@ -56,3 +56,5 @@ In this project, three different machine learning classifiers were evaluated on 
 ---
 ## Streamlit deployment
 **streamlit app Predict customer churn with precision and help banks retain their most valuable clients using our advanced Customer Bank Churn Predictor**
+### example for churn customer
+![yes](images/logo.png
