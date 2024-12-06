@@ -54,3 +54,4 @@ In this project, three different machine learning classifiers were evaluated on 
    - Evaluated the model using metrics such as **AUC**, **F1 score**, and a **classification report** to ensure high accuracy.  
 
 ---
+## streamlit deployment
