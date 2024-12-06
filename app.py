@@ -6,10 +6,8 @@ import numpy as np
 with open('xgb_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-# Title
 st.title('Customer Bank Churn')
 
-# Input Fields
 credit_score = st.number_input('Credit Score', min_value=350, max_value=850)
 age = st.number_input('Age', min_value=18, max_value=100)
 tenure = st.number_input('Tenure (years)', min_value=0, max_value=10)
